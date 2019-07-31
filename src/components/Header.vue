@@ -65,6 +65,10 @@ export default {
     text-align: center;
     margin-right: 224px;
     img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
       display: inline;
       height: 90px;
       display: block;

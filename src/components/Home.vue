@@ -211,7 +211,7 @@
 </template>
 
 <script>
-import "../../dist/css/swiper.css";
+import "../../swiper/swiper.css";
 import { mapState } from "vuex";
 import { swiper, swiperSlide } from "vue-awesome-swiper";
 import moment from "moment";
