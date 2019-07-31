@@ -94,7 +94,7 @@ export default {
   },
   methods: {
     begin2() {
-      this.$router.push("/cart1");
+      this.$router.push(`${this.$publicUrl}/cart1`);
     }
   },
   computed: {

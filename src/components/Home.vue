@@ -274,7 +274,7 @@ export default {
         alert("请选择商品款式");
       } else {
         this.$store.commit("getNewProduct");
-        this.$router.push("/cart2");
+        this.$router.push(`${this.$publicUrl}/cart2`);
       }
     }
   }

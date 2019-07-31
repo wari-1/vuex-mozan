@@ -4,8 +4,9 @@ import router from "./router";
 import store from "./store/index";
 import "./assets/element-variables.scss";
 import "./assets/global.css";
+import { PUBLICURL } from "../constants";
 import myDistrict from "../package/myDistrict";
-
+Vue.prototype.$publicUrl = PUBLICURL;
 import { Tooltip, Dialog, Button, Form, Select, Option } from "element-ui";
 Vue.use(Tooltip);
 Vue.use(Dialog);

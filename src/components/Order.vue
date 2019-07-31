@@ -9,9 +9,9 @@
             <h2>填写订单</h2>
           </div>
           <ul class="nav">
-            <li :class="$route.fullPath==='/cart1'?'active':''">购物车</li>
-            <li :class="$route.fullPath==='/order'?'active':''">填写订单</li>
-            <li :class="$route.fullPath==='/shouyingtai1'?'active':''">付款，完成订单</li>
+            <li :class="$route.fullPath===`${$publicUrl}/cart1`?'active':''">购物车</li>
+            <li :class="$route.fullPath===`${$publicUrl}/order`?'active':''">填写订单</li>
+            <li :class="$route.fullPath===`${$publicUrl}/shouyingtai1`?'active':''">付款，完成订单</li>
           </ul>
         </div>
       </div>
@@ -389,7 +389,7 @@ export default {
       } else if (!this.newAddress) {
         alert("请选择地址");
       } else {
-        this.$router.push("/shouyingtai1");
+        this.$router.push(`${this.$publicUrl}/shouyingtai1`);
       }
     },
     submitForm(formName) {
