@@ -91,7 +91,7 @@
 <script>
 import Header from "./Header";
 import Footer from "./Footer";
-import {  mapState } from "vuex";
+import { mapGetters } from "vuex";
 export default {
   name: "order",
   components: {
@@ -100,7 +100,6 @@ export default {
   },
   computed: {
     ...mapGetters(["choseTotal", "newAddress"])
-    
   },
   methods: {
     tiaozhuan() {
@@ -166,7 +165,6 @@ span > span {
   }
 }
 .inner {
-  
 }
 .shouyingtai {
   background-image: url("../assets/images/main-bg_21.jpg");
