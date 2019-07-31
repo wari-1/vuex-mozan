@@ -331,7 +331,7 @@ export default {
   components: {
     Header,
     Footer,
-    ElButton: Button,
+
     ElForm: Form,
     ElFormItem: FormItem
   },
@@ -350,16 +350,16 @@ export default {
   },
   methods: {
     showw(index) {
-      console.log(index);
+      
     },
     showNum1() {
       if (this.num < 4) {
         this.showNum = this.num;
-        console.log(this.num);
-        console.log(this.showNum);
+        
+        
       } else {
         this.showNum = 3;
-        console.log(this.showNum);
+        
       }
     },
     showMore() {
@@ -379,7 +379,7 @@ export default {
     },
     orderChecked() {
       this.checked1 = !this.checked1;
-      console.log(this.$route);
+      
     },
     submit() {
       if (this.checked2 === false) {
@@ -397,7 +397,7 @@ export default {
         if (valid) {
           alert("submit!");
         } else {
-          // sconsole.log('error submit!!')
+          
           return false;
         }
       });

@@ -251,7 +251,7 @@ export default {
       pwd: state => state.products.pwd
     }),
     ...mapGetters(["goodsNum", "total"]),
-    m1() {
+    nowtime() {
       moment().format("YYYY-MM-DD HH:mm:ss");
     }
   },
@@ -277,7 +277,7 @@ export default {
 
     moment(id) {
       return moment(this.products.find(item => item.id === id).deadline).diff(
-        this.m1,
+        this.nowtime,
         "second"
       );
     },
@@ -305,7 +305,7 @@ export default {
         this.code = "";
         this.refreshCode();
         alert("请输入正确的验证码！");
-      }else if (!/^1[34567]\d{9}/.test(this.phonenum)) {
+      } else if (!/^1[34567]\d{9}/.test(this.phonenum)) {
         alert("请输入正确手机号");
       } else {
         this.$store.commit("addOrder");
@@ -325,7 +325,6 @@ export default {
           this.randomNum(0, this.identifyCodes.length)
         ];
       }
-      console.log(this.identifyCode);
     }
   }
 };

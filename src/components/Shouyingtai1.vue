@@ -91,7 +91,7 @@
 <script>
 import Header from "./Header";
 import Footer from "./Footer";
-import { mapGetters, mapState } from "vuex";
+import {  mapState } from "vuex";
 export default {
   name: "order",
   components: {
