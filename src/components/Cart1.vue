@@ -238,7 +238,7 @@ export default {
       tooltip: false,
       identifyCodes: "1234567890",
       identifyCode: "",
-      code: "" //text框输入的验证码
+      code: "" 
     };
   },
   created() {

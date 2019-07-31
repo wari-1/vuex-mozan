@@ -100,9 +100,7 @@ export default {
   },
   computed: {
     ...mapGetters(["choseTotal", "newAddress"])
-    // ...mapState({
-    //   checked5:state=>state.products.checked5
-    // })
+    
   },
   methods: {
     tiaozhuan() {
@@ -168,8 +166,7 @@ span > span {
   }
 }
 .inner {
-  // padding: 0 50px;
-  // background-color: #fff;
+  
 }
 .shouyingtai {
   background-image: url("../assets/images/main-bg_21.jpg");

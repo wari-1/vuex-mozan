@@ -58,15 +58,11 @@ export default {
   computed: {
     ...mapGetters(["choseTotal", "newAddress"]),
     ...mapState({
-      // checked5:state=>state.products.checked5
+      
       count: state => state.products.count
     })
   },
-  // created() {
-  //   setTimeout(() => {
-  //     this.$router.push("/shouyingtai4");
-  //   }, 10000);
-  // },
+  
   methods: {
     backHome() {
       this.$router.push(`${this.$publicUrl}/`);

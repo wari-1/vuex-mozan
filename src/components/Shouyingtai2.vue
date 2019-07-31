@@ -84,7 +84,7 @@ export default {
   computed: {
     ...mapGetters(["choseTotal", "newAddress"]),
     ...mapState({
-      // checked5:state=>state.products.checked5
+      
       count: state => state.products.count
     })
   },

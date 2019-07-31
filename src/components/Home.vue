@@ -257,10 +257,8 @@ export default {
         },
         width: 1100,
         height: 348,
-        direction: "horizontal", // 水平切换选项
-        loop: true, // 循环模式选项
-        // 如果需要分页器
-        // 如果需要前进后退按钮
+        direction: "horizontal", 
+        loop: true, 
         slidesPerView: 3,
         spaceBetween: 28
       }
