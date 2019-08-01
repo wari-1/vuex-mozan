@@ -13,35 +13,35 @@ Vue.use(VueRouter);
 export default new VueRouter({
   routes: [
     {
-      path: PUBLICURL + "/#",
+      path: PUBLICURL + "/",
       component: Home
     },
     {
-      path: PUBLICURL + "/cart1#",
+      path: PUBLICURL + "/cart1",
       component: Cart1
     },
     {
-      path: PUBLICURL + "/cart2#",
+      path: PUBLICURL + "/cart2",
       component: Cart2
     },
     {
-      path: PUBLICURL + "/order#",
+      path: PUBLICURL + "/order",
       component: Order
     },
     {
-      path: PUBLICURL + "/shouyingtai1#",
+      path: PUBLICURL + "/shouyingtai1",
       component: Shouyingtai1
     },
     {
-      path: PUBLICURL + "/shouyingtai2#",
+      path: PUBLICURL + "/shouyingtai2",
       component: Shouyingtai2
     },
     {
-      path: PUBLICURL + "/shouyingtai3#",
+      path: PUBLICURL + "/shouyingtai3",
       component: Shouyingtai3
     },
     {
-      path: PUBLICURL + "/shouyingtai4#",
+      path: PUBLICURL + "/shouyingtai4",
       component: Shouyingtai4
     }
   ],
