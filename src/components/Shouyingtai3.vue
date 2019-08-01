@@ -9,9 +9,9 @@
             <h2>收银台</h2>
           </div>
           <ul class="nav">
-            <li :class="$route.fullPath===`${$publicUrl}/cart1`?'active':''">购物车</li>
-            <li :class="$route.fullPath===`${$publicUrl}/order`?'active':''">填写订单</li>
-            <li :class="$route.fullPath===`${$publicUrl}/shouyingtai1`?'active':''">付款，完成订单</li>
+            <li :class="$route.fullPath===`${$publicUrl}/cart1#`?'active':''">购物车</li>
+            <li :class="$route.fullPath===`${$publicUrl}/order#`?'active':''">填写订单</li>
+            <li :class="$route.fullPath===`${$publicUrl}/shouyingtai1#`?'active':''">付款，完成订单</li>
           </ul>
         </div>
       </div>
@@ -58,14 +58,13 @@ export default {
   computed: {
     ...mapGetters(["choseTotal", "newAddress"]),
     ...mapState({
-      
       count: state => state.products.count
     })
   },
-  
+
   methods: {
     backHome() {
-      this.$router.push(`${this.$publicUrl}/`);
+      this.$router.push(`${this.$publicUrl}/#`);
     }
   }
 };

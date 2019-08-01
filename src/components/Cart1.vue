@@ -12,9 +12,9 @@
             </h2>
           </div>
           <ul class="nav">
-            <li :class="$route.fullPath===`${$publicUrl}/cart1`?'active':''">购物车</li>
-            <li :class="$route.fullPath===`${$publicUrl}/order`?'active':''">填写订单</li>
-            <li :class="$route.fullPath===`${$publicUrl}/shouyingtai1`?'active':''">付款，完成订单</li>
+            <li :class="$route.fullPath===`${$publicUrl}/cart1#`?'active':''">购物车</li>
+            <li :class="$route.fullPath===`${$publicUrl}/order#`?'active':''">填写订单</li>
+            <li :class="$route.fullPath===`${$publicUrl}/shouyingtai1#`?'active':''">付款，完成订单</li>
           </ul>
         </div>
         <div class="main">
@@ -238,7 +238,7 @@ export default {
       tooltip: false,
       identifyCodes: "1234567890",
       identifyCode: "",
-      code: "" 
+      code: ""
     };
   },
   created() {
@@ -309,7 +309,7 @@ export default {
         alert("请输入正确手机号");
       } else {
         this.$store.commit("addOrder");
-        this.$router.push(`${this.$publicUrl}/order`);
+        this.$router.push(`${this.$publicUrl}/order#`);
       }
     },
     randomNum(min, max) {
