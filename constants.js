@@ -1,3 +1,3 @@
-const PUBLICURL = "/vuex-mozan";
-const A=10
-export  {PUBLICURL,A};
+const PUBLICURL = "";
+const A = 10;
+export { PUBLICURL, A };

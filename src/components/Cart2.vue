@@ -21,8 +21,8 @@
             </div>
           </div>
           <div class="right">
-            <a href class="back" @click="$router.back(-1)">返回</a>
-            <a href class="jiesuan" @click="begin2">去购物车结算</a>
+            <span href class="back" @click="$router.back(-1)">返回</span>
+            <span href class="jiesuan" @click="begin2">去购物车结算</span>
           </div>
         </div>
       </div>
