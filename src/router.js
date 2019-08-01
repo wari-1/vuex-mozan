@@ -33,17 +33,17 @@ export default new VueRouter({
       component: Shouyingtai1
     },
     {
-      path: PUBLICURL +"/shouyingtai2",
+      path: PUBLICURL + "/shouyingtai2",
       component: Shouyingtai2
     },
     {
-      path:PUBLICURL + "/shouyingtai3",
+      path: PUBLICURL + "/shouyingtai3",
       component: Shouyingtai3
     },
     {
-      path:PUBLICURL + "/shouyingtai4",
+      path: PUBLICURL + "/shouyingtai4",
       component: Shouyingtai4
     }
   ],
-  mode: "history"
+  mode: "hash"
 });
