@@ -103,7 +103,7 @@ export default {
   },
   methods: {
     tiaozhuan() {
-      this.$router.push(`${this.$publicUrl}/shouyingtai2#`);
+      this.$router.push(`${this.$publicUrl}/shouyingtai2`);
     }
   }
 };

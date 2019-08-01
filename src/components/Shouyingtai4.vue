@@ -124,7 +124,7 @@ export default {
   },
   methods: {
     backHome() {
-      this.$router.push(`${this.$publicUrl}/shouyingtai3#`);
+      this.$router.push(`${this.$publicUrl}/shouyingtai3`);
     }
   }
 };

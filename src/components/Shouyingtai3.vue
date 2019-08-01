@@ -64,7 +64,7 @@ export default {
 
   methods: {
     backHome() {
-      this.$router.push(`${this.$publicUrl}/#`);
+      this.$router.push(`${this.$publicUrl}/`);
     }
   }
 };

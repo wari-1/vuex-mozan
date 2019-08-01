@@ -309,7 +309,7 @@ export default {
         alert("请输入正确手机号");
       } else {
         this.$store.commit("addOrder");
-        this.$router.push(`${this.$publicUrl}/order#`);
+        this.$router.push(`${this.$publicUrl}/order`);
       }
     },
     randomNum(min, max) {

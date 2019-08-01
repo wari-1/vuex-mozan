@@ -383,7 +383,7 @@ export default {
       } else if (!this.newAddress) {
         alert("请选择地址");
       } else {
-        this.$router.push(`${this.$publicUrl}/shouyingtai1#`);
+        this.$router.push(`${this.$publicUrl}/shouyingtai1`);
       }
     },
     submitForm(formName) {

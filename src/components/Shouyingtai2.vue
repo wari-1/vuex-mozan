@@ -90,7 +90,7 @@ export default {
   created() {
     this.$store.commit("getCode");
     setTimeout(() => {
-      this.$router.push(`${this.$publicUrl}/shouyingtai4#`);
+      this.$router.push(`${this.$publicUrl}/shouyingtai4`);
     }, 10000);
   }
 };
