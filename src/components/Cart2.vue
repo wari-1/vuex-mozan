@@ -201,18 +201,18 @@ export default {
     > .right {
       flex-shrink: 0;
       display: flex;
-      a {
+      span {
         line-height: 46px;
         font-size: 18px;
         text-align: center;
       }
-      a.back {
+      span.back {
         color: #fff;
         width: 132px;
         margin-right: 10px;
         background-color: #2b2e33;
       }
-      a.jiesuan {
+      span.jiesuan {
         color: #000;
         width: 210px;
         background-color: #fdd900;
