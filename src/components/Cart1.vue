@@ -305,7 +305,7 @@ export default {
         this.code = "";
         this.refreshCode();
         alert("请输入正确的验证码！");
-      } else if (!/^1[34567]\d{9}/.test(this.phonenum)) {
+      } else if (/^1[34567]\d{9}/.test(this.phonenum) === false) {
         alert("请输入正确手机号");
       } else {
         this.$store.commit("addOrder");

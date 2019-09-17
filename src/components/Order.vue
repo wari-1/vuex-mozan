@@ -7,7 +7,7 @@
           <div class="title">
             <span></span>
             <h2>填写订单</h2>
-          </div>
+          </div>f
           <ul class="nav">
             <li :class="$route.fullPath===`${$publicUrl}/cart1`?'active':''">购物车</li>
             <li :class="$route.fullPath===`${$publicUrl}/order`?'active':''">填写订单</li>
@@ -396,6 +396,7 @@ export default {
       });
     },
     restore() {
+      console.log(/^1[34567]\d{9}/.test(this.phone));
       if (this.name === "") {
         alert("请填写收货人姓名");
       } else if (
