@@ -86,7 +86,7 @@
               <img src="../assets/images/yushou_32.jpg" alt />
               <h4>龙之谷六周年限定礼包大Boss冰龙款男士T恤</h4>
             </div>
-            <div class="daojishi">
+            <div class="daojishi" style="marginRight:10px">
               <span>距预售结束</span>
               <div class="box">
                 <div class="box1">
@@ -494,9 +494,16 @@ export default {
       }
     }
   }
+  .daojishi {
+    width: 95%;
+    .box p {
+      width: 15px;
+    }
+  }
   .daojishi > span {
     display: flex;
     font-size: 14px;
+
     margin-top: 16px;
     color: #fff;
     &:first-child {
