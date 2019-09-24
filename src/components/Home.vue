@@ -117,7 +117,7 @@
               </div>
               <span>
                 <span>注：</span>商品将于
-                <span>2019年8月6日</span>统一发货
+                <span>2019年11月6日</span>统一发货
               </span>
             </div>
           </div>
@@ -245,7 +245,7 @@ export default {
 
   data() {
     return {
-      m: "2019-10-06 11:00:00",
+      m: "2019-11-06 11:00:00",
       day: null,
       hour: null,
       minute: null,
@@ -257,8 +257,8 @@ export default {
         },
         width: 1100,
         height: 348,
-        direction: "horizontal", 
-        loop: true, 
+        direction: "horizontal",
+        loop: true,
         slidesPerView: 3,
         spaceBetween: 28
       }
